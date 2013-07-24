@@ -73,12 +73,14 @@ var AppView = Backbone.View.extend({
     
      addTask: function () { 
          var todoText = $('#text').val()
+         
          console.log(todoText);
         toDos.add({
             text: todoText
         
         })
     console.log("Add task");
+         console.log(toDos);
      }
 
 })
