@@ -9,7 +9,7 @@ var toDo = new ToDo();
 
 ToDos = Backbone.Collection.extend({
   
-    model: toDo
+    model: ToDo
     
 });
 
