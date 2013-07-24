@@ -1,0 +1,9 @@
+.text.not-done {
+    background-color:#e60000;        
+}
+.text.done {
+    background-color:green;   
+}
+.text {
+    color:#fff;   
+}
